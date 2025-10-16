@@ -52,3 +52,13 @@ variable "playbook_repository" {
   description = "(Required) URI of Anisible playbook executed on the instance"
 }
 
+variable "ec2_role_name" {
+  type        = string
+  description = "(Required) role name of the ec2 instance profile"
+}
+
+variable "api_key_secret_id" {
+  type        = string
+  description = "(Required) secret id for the api key"
+}
+
